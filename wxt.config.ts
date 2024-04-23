@@ -5,6 +5,12 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   manifest: {
     name: "POP Logos",
+    web_accessible_resources: [
+      {
+        matches: [],
+        resources: ["/logos/*"],
+      },
+    ],
   },
   vite: () => ({
     plugins: [react()],
