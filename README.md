@@ -4,8 +4,6 @@
 ![build](https://github.com/ryohidaka/pop-logos/workflows/Build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B6TVH92)
-
 Change the brand logo and favicon on the web page to a pop image created by @SAWARATSUKI .
 
 ![Sample](./docs/images/sample/gitlab.png)
