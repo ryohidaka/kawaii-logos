@@ -1,0 +1,41 @@
+{
+  "name": "wxt-react-template",
+  "description": "This template should help get you started developing with React in WXT.",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "format": "npx prettier './' --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohidaka/wxt-react-template.git"
+  },
+  "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/ryohidaka/wxt-react-template/issues"
+  },
+  "homepage": "https://github.com/ryohidaka/wxt-react-template#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "wxt": "^0.17.0"
+  }
+}

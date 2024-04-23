@@ -1,0 +1,24 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      # Uncomment the following after cloning
+      - name: No operation
+        run: echo "No operation"
+# - uses: google-github-actions/release-please-action@v3
+#   with:
+#     release-type: node
+#     package-name: wxt-react-template
+#     bump-minor-pre-major: true
+#     bump-patch-for-minor-pre-major: true
