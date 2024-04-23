@@ -7,7 +7,7 @@ export default defineConfig({
     name: "POP Logos",
     web_accessible_resources: [
       {
-        matches: ["*://*.github.com/*"],
+        matches: ["*://*.github.com/*", "*://*.gitlab.com/*"],
         resources: ["/logos/*"],
       },
     ],
