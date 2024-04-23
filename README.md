@@ -8,6 +8,8 @@
 
 Change the brand logo and favicon on the web page to a pop image created by @SAWARATSUKI .
 
+![Sample](./docs/images/sample/gitlab.png)
+
 ## Installation
 
 <!-- [<img src="./docs/images/store/chrome-web-store.png" alt="Available in the Chrome Web Store" width="248" />](https://chromewebstore.google.com/...) -->
@@ -16,7 +18,16 @@ Change the brand logo and favicon on the web page to a pop image created by @SAW
 
 ## How to use
 
+When you access a supported website (e.g. GitLab), the brand logo is changed to a pop-up image.
+
+## Status of support
+
+- GitHub
+- GitLab
+
 ## Link
+
+- [ServiceLogos (Original)](https://github.com/SAWARATSUKI/ServiceLogos)
 
 ## License
 
