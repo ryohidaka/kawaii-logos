@@ -1,6 +1,6 @@
 {
-  "name": "wxt-react-template",
-  "description": "This template should help get you started developing with React in WXT.",
+  "name": "pop-logos",
+  "description": "Change the brand logo and favicon on the web page to a pop image created by @SAWARATSUKI .",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/wxt-react-template.git"
+    "url": "git+https://github.com/ryohidaka/pop-logos.git"
   },
   "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
   "bugs": {
-    "url": "https://github.com/ryohidaka/wxt-react-template/issues"
+    "url": "https://github.com/ryohidaka/pop-logos/issues"
   },
-  "homepage": "https://github.com/ryohidaka/wxt-react-template#readme",
+  "homepage": "https://github.com/ryohidaka/pop-logos#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
