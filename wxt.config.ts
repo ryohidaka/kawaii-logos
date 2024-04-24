@@ -11,6 +11,11 @@ export default defineConfig({
         resources: ["/logos/*"],
       },
     ],
+    browser_specific_settings: {
+      gecko: {
+        id: "pop-logos@hidaka.dev",
+      },
+    },
   },
   vite: () => ({
     plugins: [react()],
