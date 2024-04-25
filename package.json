@@ -1,5 +1,5 @@
 {
-  "name": "pop-logos",
+  "name": "kawaii-logos",
   "description": "Change the brand logo and favicon on the web page to a pop image created by @SAWARATSUKI .",
   "private": true,
   "version": "0.0.1",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/pop-logos.git"
+    "url": "git+https://github.com/ryohidaka/kawaii-logos.git"
   },
   "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
   "bugs": {
-    "url": "https://github.com/ryohidaka/pop-logos/issues"
+    "url": "https://github.com/ryohidaka/kawaii-logos/issues"
   },
-  "homepage": "https://github.com/ryohidaka/pop-logos#readme",
+  "homepage": "https://github.com/ryohidaka/kawaii-logos#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

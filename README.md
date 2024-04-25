@@ -1,7 +1,7 @@
-# pop-logos
+# kawaii-logos
 
-[![release](https://badgen.net/github/release/ryohidaka/pop-logos)](https://github.com/ryohidaka/pop-logos/releases/)
-![build](https://github.com/ryohidaka/pop-logos/workflows/Build/badge.svg)
+[![release](https://badgen.net/github/release/ryohidaka/kawaii-logos)](https://github.com/ryohidaka/kawaii-logos/releases/)
+![build](https://github.com/ryohidaka/kawaii-logos/workflows/Build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Change the brand logo and favicon on the web page to a pop image created by [@SAWARATSUKI](https://github.com/SAWARATSUKI) .

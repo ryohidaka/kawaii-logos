@@ -16,6 +16,6 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: pop-logos
+          package-name: kawaii-logos
           bump-minor-pre-major: true
           bump-patch-for-minor-pre-major: true
