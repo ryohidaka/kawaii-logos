@@ -13,12 +13,9 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      # Uncomment the following after cloning
-      - name: No operation
-        run: echo "No operation"
-# - uses: google-github-actions/release-please-action@v3
-#   with:
-#     release-type: node
-#     package-name: pop-logos
-#     bump-minor-pre-major: true
-#     bump-patch-for-minor-pre-major: true
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: pop-logos
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
