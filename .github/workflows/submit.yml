@@ -18,8 +18,8 @@ jobs:
       - uses: ryohidaka/wxt-submit@v1.0.0
         with:
           # For Chrome Extension
-          chrome: false
-          chrome-extension-id: ""
+          chrome: true
+          chrome-extension-id: "genfodbjgopedkhclolakfajggbfgalh"
           chrome-client-id: ${{ secrets.CHROME_CLIENT_ID }}
           chrome-client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
           chrome-refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
