@@ -21,19 +21,19 @@ devDependencies:
     version: 18.3.0
   '@vitejs/plugin-react':
     specifier: ^4.3.0
-    version: 4.3.0(vite@5.2.11)
+    version: 4.3.0(vite@5.2.12)
   husky:
     specifier: ^9.0.11
     version: 9.0.11
   prettier:
-    specifier: ^3.2.5
-    version: 3.2.5
+    specifier: ^3.3.0
+    version: 3.3.0
   typescript:
     specifier: ^5.3.3
     version: 5.4.5
   wxt:
-    specifier: ^0.18.3
-    version: 0.18.3
+    specifier: ^0.18.4
+    version: 0.18.4
 
 packages:
 
@@ -301,7 +301,7 @@ packages:
       '@devicefarmer/adbkit-monkey': 1.2.1
       bluebird: 3.7.2
       commander: 9.5.0
-      debug: 4.3.4
+      debug: 4.3.5
       node-forge: 1.3.1
       split: 1.0.1
     transitivePeerDependencies:
@@ -989,8 +989,8 @@ packages:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
 
-  /@types/node@20.12.12:
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  /@types/node@20.14.0:
+    resolution: {integrity: sha512-5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1020,11 +1020,11 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.14.0
     dev: true
     optional: true
 
-  /@vitejs/plugin-react@4.3.0(vite@5.2.11):
+  /@vitejs/plugin-react@4.3.0(vite@5.2.12):
     resolution: {integrity: sha512-KcEbMsn4Dpk+LIbHMj7gDPRKaTMStxxWRkRmxsg/jVdFdJCZWt1SchZcf0M4t8lIKdwwMsEyzhrcOXRrDPtOBw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1035,7 +1035,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.2.11
+      vite: 5.2.12
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1062,9 +1062,9 @@ packages:
     hasBin: true
     dev: true
 
-  /adm-zip@0.5.12:
-    resolution: {integrity: sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==}
-    engines: {node: '>=6.0'}
+  /adm-zip@0.5.13:
+    resolution: {integrity: sha512-4U51tTl9J8UVEcuKGr6zRzY95tWoAa9l+ureGBNmsfleszjZblm5NyEEL/ZQxkhi86co5mZhSvL2T7gkZ6feYQ==}
+    engines: {node: '>=12.0'}
     dev: true
 
   /ansi-align@3.0.1:
@@ -1366,7 +1366,7 @@ packages:
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.14.0
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 2.0.1
@@ -1592,6 +1592,18 @@ packages:
 
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: true
+
+  /debug@4.3.5:
+    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1919,7 +1931,7 @@ packages:
     engines: {node: '>= 10.17.0'}
     hasBin: true
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -1967,7 +1979,7 @@ packages:
     resolution: {integrity: sha512-goE2XxbmYVSafvCjcy64/AK3xOr14HCUCD4+TpYWEIMy4nrJfNAacLGzwqKwZhCW0hHI2TYMGH+G/YBvOE8L6g==}
     hasBin: true
     dependencies:
-      adm-zip: 0.5.12
+      adm-zip: 0.5.13
       fs-extra: 9.0.1
       ini: 2.0.0
       minimist: 1.2.8
@@ -3078,8 +3090,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  /prettier@3.3.0:
+    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -3348,8 +3360,8 @@ packages:
     dev: true
     optional: true
 
-  /sax@1.4.0:
-    resolution: {integrity: sha512-G3nn4N8SRaR9NsCqEUHfTlfTM/Fgza1yfb8JP2CEmzYuHtHWza5Uf+g7nuUQq96prwu0GiGyPgDw752+j4fzQQ==}
+  /sax@1.4.1:
+    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
     dev: true
 
   /scheduler@0.23.2:
@@ -3784,8 +3796,8 @@ packages:
     hasBin: true
     dev: true
 
-  /vite@5.2.11:
-    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
+  /vite@5.2.12:
+    resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3964,8 +3976,8 @@ packages:
         optional: true
     dev: true
 
-  /wxt@0.18.3:
-    resolution: {integrity: sha512-AFoppfr35LLlPpYyF5nGSR4n7HfTzdq+ihjewL0Urw8Bv83Ld/Cnw+xv7AF0xjZFyKKI/d+AAA0NRdl4cHxAng==}
+  /wxt@0.18.4:
+    resolution: {integrity: sha512-BHg+yyHPg4KpusPr4QrcZCqGvCG2U0xoCqikwe9xreLeSNwjSeu7SkbceD/LzD/ltYTz9ETt2tZcC8LfNfrgcQ==}
     hasBin: true
     dependencies:
       '@aklinker1/rollup-plugin-visualizer': 5.12.0
@@ -4003,7 +4015,7 @@ packages:
       prompts: 2.4.2
       publish-browser-extension: 2.1.3
       unimport: 3.7.2
-      vite: 5.2.11
+      vite: 5.2.12
       web-ext-run: 0.2.0
       webextension-polyfill: 0.10.0
     transitivePeerDependencies:
@@ -4029,7 +4041,7 @@ packages:
     resolution: {integrity: sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==}
     engines: {node: '>=4.0.0'}
     dependencies:
-      sax: 1.4.0
+      sax: 1.4.1
       xmlbuilder: 11.0.1
     dev: true
 
